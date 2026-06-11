@@ -125,7 +125,7 @@ window.checkStatus = async function(refId) {
     el.innerHTML = '<span class="mono" style="font-size:0.7rem;color:#666;">CHECKING...</span>';
 
     try {
-        const res = await fetch(`http://127.0.0.1:8000/track/${refId}`);
+        const res = await fetch(`https://urbanpulse-1-xze8.onrender.com/track/${refId}`);
         if (!res.ok) throw new Error("Not found");
         const data = await res.json();
 
