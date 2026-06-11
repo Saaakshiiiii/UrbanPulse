@@ -1,0 +1,1 @@
+// admin.js - functionality moved to admin.html inline script
