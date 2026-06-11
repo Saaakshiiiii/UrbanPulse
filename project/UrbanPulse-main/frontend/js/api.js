@@ -1,4 +1,4 @@
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://urbanpulse-1-xze8.onrender.com";
 
 export async function classifyIncident(text, latitude, longitude, imageBase64 = null) {
     // First classify to get severity, ref_id etc
